@@ -88,7 +88,7 @@ jobs:
       - name: 🦕 Install Deno@2.x
         uses: denoland/setup-deno@main
         with:
-          deno-version: 2.x
+          deno-version: vx.x.x
 
       - name: 📦 Bundle up
         if: ${{ env.DEPLOY_MODE == 'action' }}
